@@ -1,0 +1,87 @@
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css");
+  @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+  @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css');
+  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+body{
+  margin-top:20px;
+  background: #f6f9fc;
+}
+.account-block {
+    background-image: url(../templateStyle/images/Access_accoun.png);
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+
+}
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.account-block .account-testimonial {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+}
+
+.register-block {
+    padding: 0;
+    background-image: url(../templateStyle/images/enter.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+.register-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text-theme {
+    color: #ee5057 !important;
+}
+
+.hr{
+    margin: 15px 0;
+    color: #ee5057;  
+    font-size: 16px;
+
+}
+
+.social button{
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    box-shadow: 0 2px 4px #777;
+    text-align: 'center';
+}
+
+.form-control.shadow-danger:focus {
+    border-color: #ee5057;
+    box-shadow: 0 0 0 0.2rem #ee505856;
+  }
